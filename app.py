@@ -10,7 +10,7 @@ st.set_page_config(
 
 # Background image
 image_path = Path("assets/breast_cancer_bg.png")
-st.write("Image exists:", image_path.exists())
+
 if image_path.exists():
     image_base64 = base64.b64encode(
         image_path.read_bytes()
