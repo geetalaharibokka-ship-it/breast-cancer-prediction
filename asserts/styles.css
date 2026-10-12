@@ -1,0 +1,195 @@
+/* =========================================
+   BREAST CANCER DASHBOARD
+   ========================================= */
+
+.stApp {
+    background-image:
+        linear-gradient(
+            rgba(255, 240, 248, 0.82),
+            rgba(255, 247, 252, 0.94)
+        ),
+        url("breast_cancer_bg.png");
+
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* Main content */
+.main .block-container {
+    max-width: 1250px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(
+        180deg,
+        #581c87,
+        #9d174d,
+        #be185d
+    );
+}
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* =========================================
+   HERO TITLE
+   ========================================= */
+
+.hero {
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(8px);
+    border-radius: 25px;
+    padding: 35px;
+    text-align: center;
+    border: 2px solid rgba(236,72,153,0.25);
+    box-shadow: 0 10px 30px rgba(157,23,77,0.15);
+}
+
+.hero h1 {
+    color: #be185d !important;
+    font-size: 42px !important;
+    font-weight: 800;
+}
+
+.hero h2 {
+    color: #312e81 !important;
+    font-size: 25px;
+}
+
+.hero p {
+    color: #475569 !important;
+    font-size: 17px;
+}
+
+/* =========================================
+   DATASET INFO CARDS
+   ========================================= */
+
+.info-card {
+    background: rgba(255,255,255,0.92);
+    border-radius: 18px;
+    padding: 22px;
+    margin: 15px 0;
+    border: 1px solid #fbcfe8;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+}
+
+.info-card h2 {
+    color: #be185d !important;
+}
+
+.info-card h3 {
+    color: #7e22ce !important;
+}
+
+.info-card p {
+    color: #475569 !important;
+}
+
+/* =========================================
+   FEATURE CARDS
+   ========================================= */
+
+.feature-card {
+    background: rgba(255,255,255,0.94);
+    border-radius: 18px;
+    padding: 20px;
+    min-height: 180px;
+    text-align: center;
+    border: 1px solid #fbcfe8;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.feature-card h3 {
+    color: #be185d !important;
+}
+
+.feature-card p {
+    color: #475569 !important;
+}
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.stButton > button {
+    background: linear-gradient(
+        90deg,
+        #db2777,
+        #9333ea
+    );
+
+    color: white !important;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(
+        90deg,
+        #be185d,
+        #7e22ce
+    );
+}
+
+/* =========================================
+   METRICS
+   ========================================= */
+
+div[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #fbcfe8;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.10);
+}
+
+/* =========================================
+   FILE UPLOADER
+   ========================================= */
+
+section[data-testid="stFileUploader"] {
+    background: rgba(255,255,255,0.95);
+    border: 2px dashed #ec4899;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* =========================================
+   DATAFRAME
+   ========================================= */
+
+div[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* =========================================
+   EXPANDER
+   ========================================= */
+
+div[data-testid="stExpander"] {
+    background: rgba(255,255,255,0.94);
+    border: 1px solid #fbcfe8;
+    border-radius: 15px;
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer {
+    text-align: center;
+    padding: 25px;
+    color: #831843;
+    font-weight: 600;
+}
